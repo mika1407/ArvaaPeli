@@ -16,8 +16,11 @@ class style():
     UNDERLINE = '\033[4m'
     RESET = '\033[0m'
 
-from random import randrange
-luku = (randrange(1,21))
+#from random import randrange
+#luku = (randrange(1,21))
+
+from random import randint
+luku = randint(1,20)
 
 print("\nTämä on arvaa luku peli. Tervetuloa!")
 
